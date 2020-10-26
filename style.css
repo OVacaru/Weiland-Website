@@ -1,0 +1,29 @@
+* {
+  text-align:center;
+  list-style-position: inside;
+}
+:root {
+  --accent-color:blue;
+  --accent-font: 'Syne Mono', monospace;
+  --standard-font: 'Syne Tactile', Cursive;
+}
+
+body {
+  font-family: var(--standard-font);
+}
+
+ol {
+  border: 2px solid var(--accent-color);
+}
+
+
+#volunteer-info {
+  background-color: red;
+  opacity: 0.3;
+}
+
+.accent {
+  color: var(--accent-color);
+  font-family: var(--accent-font);
+}
+
